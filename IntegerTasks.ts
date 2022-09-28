@@ -56,8 +56,8 @@ console.log(D1);
 
 //Task 27
 //Days of week are numbered as: 1 — Monday, 2 — Tuesday, …, 6 — Saturday, 7 — Sunday. An integer K in the range 1 to 365 is given. Find the number of day of week for K-th day of year provided that in this year January 1 was Saturday.
-let H : number = 58;
-let H1 : number = (5 + H) % 7;
+let H : number = 34;
+let H1 : number = ((4 + H) % 7) + 1;
 console.log(H1);
 
 //Task 30
